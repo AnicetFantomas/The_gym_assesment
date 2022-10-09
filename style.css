@@ -77,11 +77,12 @@ nav {
 
 .options {
     width: 100%;
-    height: 160px;
+    height: 260px;
     background-color: #000;
     color: #FFF;
     display: flex;
     flex-direction: column;
+    padding: 0 auto;
 }
 
 .optionsLinks {
@@ -105,7 +106,232 @@ nav {
     height: 80px;
     border: 4px solid #fff;
     border-radius: 0 20px;
-    margin: 30px;
+    margin: 10px 30px;
     padding: 10px;
     font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    height: 400px;
+    font-size: 18px;
+}
+
+
+.card1 .card-img {
+    width: 100%;
+    height: 160px;
+    background-image: url("https://cdn.britannica.com/86/193986-050-7B2DBB6A/ball-and-stick-model-structure-atoms.jpg?w=400&h=300&c=crop");
+}
+
+.card2 .card-img {
+    width: 100%;
+    height: 160px;
+    background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/The_Future_of_Robotics.jpg");
+    background-size: cover;
+}
+
+.card3 .card-img {
+    width: 100%;
+    height: 160px;
+    background-image: url("https://www.abc.net.au/cm/rimage/9935148-16x9-large.jpg?v=3");
+    background-size: cover;
+}
+
+.card4 .card-img {
+    width: 100%;
+    height: 160px;
+    background-image: url("https://cdn.britannica.com/86/193986-050-7B2DBB6A/ball-and-stick-model-structure-atoms.jpg?w=400&h=300&c=crop");
+}
+
+
+
+
+.cardTitle {
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.cardBottom {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    border-bottom: 4px solid #000;
+}
+
+.section2 h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.section3{
+    width: 100%;
+}
+
+.faqs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.faq {
+    height: 400px;
+    border-radius: 20px 0;
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faq h3 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.faq p {
+    color: rgb(231, 231, 231);
+    margin: 40px 0;
+}
+
+.faq button {
+    background-color: rgb(71, 67, 67);
+    color: #FFF;
+    border-radius: none;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.faq1 {
+    background: url("https://assets.entrepreneur.com/content/3x2/2000/20151002170856-controllers-business-people-working-papers-meeting.jpeg"), rgba(24, 32, 24, 0.445);
+    background-size: cover;
+}
+
+.faq2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH_tIPVv2WCvFH2kL_VTC9kbNGgh_F65wGM-gz42niVkSf6PbwwTBrThXBJxsxdGNRMx4&usqp=CAU");
+    background-size: cover;
+}
+
+
+.faq3 {
+    background-image: url("https://img.freepik.com/free-photo/father-son-having-good-time-park_23-2148684657.jpg?w=360");
+    background-size: cover;
+}
+
+.sec3bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.sec3b {
+    width: 40%;
+    height: 160px;
+    background-color:  rgba(121, 111, 111, 0.637);
+    border-radius: 20px 0;
+    color: #FFF;
+    padding: 20px;
+}
+
+.sec3b h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.sec3b p {
+    font-size: 18px;
+}
+
+.section4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.sec4div1 {
+    height: 500px;
+    font-size: 20px;
+}
+
+.sec4divImg {
+    width: 100%;
+    height: 250px;
+    background-image: url("https://www.kit.edu/admin/events/images/ajax/image.php?ev_id=36182&format=widget");
+    background-size: cover;
+}
+
+.sec4divTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(16, 19, 16);
+}
+
+.program {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sec4div2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+    height: 500px;
+}
+
+.sec4div2Item {
+    display: flex;
+    background-color: #f9f4f0;
+}
+
+.date {
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(180, 176, 176, 0.664);
+    padding: 10px;
+    border-left: 4px solid rgb(54, 54, 54);
+}
+
+.date:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+.dateContent {
+    padding: 10px;
+    margin: 10px;
+}
+
+.section5 {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 600px;
+}
+
+.title {
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sec5ItemLink {
+    border-bottom: 1px solid #000;
 }
