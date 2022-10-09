@@ -80,4 +80,32 @@ nav {
     height: 160px;
     background-color: #000;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.optionsLinks {
+    width: 40%;
+    height: 80px;
+    border: 4px solid #fff;
+    border-radius: 0 20px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.optionLinksCont{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.optionsLink {
+    width: 90%;
+    height: 80px;
+    border: 4px solid #fff;
+    border-radius: 0 20px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 30px;
 }
