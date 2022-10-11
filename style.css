@@ -21,10 +21,12 @@ header {
 
 .navList1 {
     display: flex;
+    color: rgb(20, 20, 20);
 }
 
 .navList2 {
     display: flex;
+    align-self: end;
 }
 
 .navList1 ul{
@@ -359,4 +361,25 @@ nav {
 
 a {
     text-decoration: none;
+    color: #000;
+}
+
+.mobliNav{
+    display: none;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+    .navList1, .navList2 {
+        display: none;
+    }
+
+    .mobliNav {
+        display: flex;
+    }
+
+    .mobliNav ul {
+        display: flex;
+        align-self: center;
+        font-size: 25px;
+    }
 }
