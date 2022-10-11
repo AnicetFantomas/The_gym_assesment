@@ -382,4 +382,15 @@ a {
         align-self: center;
         font-size: 25px;
     }
+
+    .cardsContainer, .faqs, .sec3bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec3b {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
 }
